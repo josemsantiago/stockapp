@@ -73,7 +73,7 @@ pip install matplotlib pandas numpy tkinter
 ### Quick Start
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/josemsantiago/stockapp.git
 cd stockapp
 
 # Run CLI version
@@ -298,7 +298,7 @@ This software is for educational and informational purposes only. It does not co
 
 **José Santiago Echevarria**
 - Email: jose.santiago.echevarria@outlook.com
-- LinkedIn: [linkedin.com/in/jose-santiago-echevarria](https://linkedin.com/in/jose-santiago-echevarria)
+- LinkedIn: [linkedin.com/in/jmsechevarria](https://linkedin.com/in/jmsechevarria)
 - GitHub: [github.com/josemsantiago](https://github.com/josemsantiago)
 
 ### Acknowledgments

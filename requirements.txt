@@ -1,0 +1,12 @@
+# stockapp Requirements
+# This project requires tkinter for GUI functionality (usually included with Python)
+# and standard library modules
+
+# Core dependencies (included with Python)
+# tkinter - for GUI components
+# datetime - for date/time handling
+# csv - for data file processing
+# os - for file operations
+
+# Python 3.6+ recommended for optimal compatibility
+# Note: tkinter is included with most Python installations
