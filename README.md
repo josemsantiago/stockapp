@@ -1,44 +1,43 @@
-# StockApp - Professional Portfolio Management System
-### Advanced Stock Tracking & Investment Analysis Platform
+# StockApp - Educational Stock Portfolio Tracker
+### Python Stock Tracking Application (Course Project)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Educational-blue.svg)](#)
 [![GUI](https://img.shields.io/badge/GUI-Tkinter-orange.svg)](https://docs.python.org/3/library/tkinter.html)
-[![Data](https://img.shields.io/badge/Data-Yahoo%20Finance-red.svg)](https://finance.yahoo.com)
+[![Data](https://img.shields.io/badge/Data-Yahoo%20Finance_CSV-red.svg)](https://finance.yahoo.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A comprehensive stock portfolio management application featuring both command-line and graphical user interfaces, real-time data analysis, investment account simulation, and advanced financial reporting capabilities.
+An educational stock portfolio management application created for a Python programming course. Features both command-line and graphical interfaces for tracking stock portfolios using historical data from Yahoo Finance CSV files.
+
+## 📸 Screenshots
+
+> **Note:** GUI screenshots will be added soon. Run `python stock_GUI.py` to see the graphical interface.
 
 ## 🎯 Overview
 
-StockApp is a sophisticated financial portfolio management system designed for individual investors, financial advisors, and educational institutions. The application provides comprehensive tools for stock tracking, portfolio analysis, investment simulation, and financial reporting with support for multiple account types including traditional and robo-advisor accounts.
+StockApp is a **student project** demonstrating object-oriented programming concepts including class design, inheritance, file I/O, and GUI development with Tkinter. The application simulates portfolio tracking and investment account management using downloaded CSV data from Yahoo Finance.
 
-## ✨ Key Features
+## ✨ Features Implemented
 
 ### 📊 Portfolio Management
-- **Multi-Stock Portfolio Tracking**: Manage unlimited stocks with real-time data
-- **Historical Data Import**: Seamless CSV import from Yahoo Finance
-- **Investment Account Simulation**: Traditional and robo-advisor account types
-- **Performance Analytics**: Comprehensive profit/loss analysis and reporting
-- **Risk Assessment**: Portfolio diversification and risk metrics
+- **Stock Portfolio Tracking**: Add and manage multiple stocks
+- **Historical Data Import**: Import CSV files downloaded from Yahoo Finance
+- **Investment Account Simulation**: Two account types (Traditional and Robo-Advisor)
+- **Basic Performance Tracking**: Simple profit/loss calculations
 
-### 📈 Data Analysis & Visualization
-- **Real-Time Stock Charts**: Interactive price trend visualization using matplotlib
-- **Technical Indicators**: Moving averages, RSI, MACD, and custom indicators
-- **Statistical Analysis**: Volatility, correlation, and performance metrics
-- **Historical Backtesting**: Test investment strategies against historical data
-- **Comparative Analysis**: Benchmark against market indices
+### 📈 Data Visualization
+- **Stock Price Charts**: Basic price trend visualization using matplotlib
+- **Historical Data Display**: View historical stock prices from CSV data
 
-### 💼 Investment Account Types
-- **Traditional Accounts**: Manual stock selection with full control
-- **Robo-Advisor Simulation**: Automated 5% annual return calculation
-- **Account Balance Tracking**: Real-time balance and return monitoring
-- **Tax-Loss Harvesting**: Simulation of tax-efficient investment strategies
+### 💼 Account Types
+- **Traditional Account**: Manual stock portfolio with buy/sell operations
+- **Robo-Advisor Account**: Simplified account with 5% annual return simulation
+- **Account Balance Tracking**: Track deposits and calculate returns
 
-### 🖥️ Dual Interface System
-- **Command-Line Interface (CLI)**: Professional terminal-based operations
-- **Graphical User Interface (GUI)**: User-friendly tkinter-based interface
-- **Tabbed Navigation**: Organized workflow with manage, history, and report tabs
-- **Data Export**: CSV export functionality for external analysis
+### 🖥️ User Interfaces
+- **Command-Line Interface (CLI)**: Menu-driven console application
+- **Graphical User Interface (GUI)**: Tkinter-based window with tabs
+- **Data Input**: Manual entry and CSV file import
 
 ## 🏗️ Technical Architecture
 
@@ -52,12 +51,13 @@ class Traditional(Retirement_Account):  # Manual investment account
 class Robo(Retirement_Account): # Automated investment account
 ```
 
-### Advanced Features
-- **CSV Data Integration**: Yahoo Finance format compatibility
-- **Data Persistence**: Binary file storage for portfolio data
-- **Error Handling**: Comprehensive validation and exception management
-- **Unit Testing**: Built-in test suite for account operations
-- **Performance Optimization**: Efficient data structures and algorithms
+### Learning Objectives Demonstrated
+- **Object-Oriented Programming**: Classes, inheritance, encapsulation
+- **CSV Data Handling**: Reading and parsing Yahoo Finance CSV files
+- **GUI Development**: Tkinter interface with multiple tabs
+- **Data Structures**: Lists, dictionaries for portfolio management
+- **File I/O**: Data persistence and retrieval
+- **Basic Plotting**: Matplotlib for stock price visualization
 
 ## 🚀 Installation & Setup
 
@@ -286,6 +286,10 @@ python account_class.py  # Run all tests
 - **Data Integrity**: 99.99% accuracy validation
 - **Performance Attribution**: ±0.01% variance
 - **Risk Metrics**: Industry-standard calculations
+
+## 📸 Screenshots
+
+> **Note:** Screenshots will be added soon. To see the application in action, run `python stock_GUI.py` for the graphical interface or `python stock_menu_v3.py` for the CLI version.
 
 ## 📝 License & Legal
 

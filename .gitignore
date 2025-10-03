@@ -20,6 +20,7 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -46,6 +47,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+cover/
 
 # Translations
 *.mo
@@ -68,6 +70,7 @@ instance/
 docs/_build/
 
 # PyBuilder
+.pybuilder/
 target/
 
 # Jupyter Notebook
@@ -81,7 +84,13 @@ ipython_config.py
 .python-version
 
 # pipenv
-#Pipfile.lock
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
 
 # PEP 582
 __pypackages__/
@@ -95,6 +104,10 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+!.env.example
+*.env
+!*.env.example
 .venv
 env/
 venv/
@@ -120,21 +133,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-user_data.db
-employee.dat
+# pytype static type analyzer
+.pytype/
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Cython debug symbols
+cython_debug/
 
-# OS generated files
+# Operating System Files
 .DS_Store
 .DS_Store?
 ._*
@@ -142,3 +147,40 @@ employee.dat
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.swp
+*.swo
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDE and Editor Files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.iml
+.atom/
+.history/
+*.code-workspace
+.fleet/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
